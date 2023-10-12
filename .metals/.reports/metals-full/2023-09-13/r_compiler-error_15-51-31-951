@@ -1,0 +1,99 @@
+scala.reflect.internal.FatalError: 
+  Something is wrong: cannot find T in applied type chisel3.util.Queue
+   sought  T in Queue
+ classSym  Queue in util
+  tparams  T in Queue
+
+     while compiling: file://<WORKSPACE>/src/main/scala/gcd/GCD.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.13.8
+    compiler version: version 2.13.8
+  reconstructed args: -deprecation -feature -Wconf:cat=feature:w -Wconf:cat=deprecation:w -Wconf:cat=deprecation:ws -Wconf:cat=feature:ws -Wconf:cat=optimizer:ws -classpath <WORKSPACE>/.bloop/root/bloop-bsp-clients-classes/classes-Metals-YAUoLeudR1GyYjExE2nCZg==:<HOME>/.cache/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.9.5/semanticdb-javac-0.9.5.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.13/3.5.4/chisel3_2.13-3.5.4.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-macros_2.13/3.5.4/chisel3-macros_2.13-3.5.4.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-core_2.13/3.5.4/chisel3-core_2.13-3.5.4.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.8.0/os-lib_2.13-0.8.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl_2.13/1.5.4/firrtl_2.13-1.5.4.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.7.0/geny_2.13-0.7.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.18.0/protobuf-java-3.18.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.13/3.6.12/json4s-native_2.13-3.6.12.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/data-class_2.13/0.2.5/data-class_2.13-0.2.5.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/3.6.12/json4s-core_2.13-3.6.12.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/3.6.12/json4s-ast_2.13-3.6.12.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/3.6.12/json4s-scalap_2.13-3.6.12.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar -language:reflectiveCalls -Xcheckinit -Xplugin-require:semanticdb -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: Ident(Queue)
+       tree position: line 14 of file://<WORKSPACE>/src/main/scala/gcd/GCD.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+    11     val write        = Flipped(Decoupled(data))
+    12     val read         = Decoupled(data)
+    13   })
+    14     val fifo = Module(new Queue)
+    15 }
+    16 
+occurred in the presentation compiler.
+
+action parameters:
+offset: 336
+uri: file://<WORKSPACE>/src/main/scala/gcd/GCD.scala
+text:
+// See README.md for license details.
+package fifo
+
+import chisel3._
+import chisel3.util.Decoupled
+import chisel3.util.Queue
+
+
+class fifo[T <: Data] (data:T,depth:UInt) extends Module {
+  val io = IO(new Bundle {
+    val write        = Flipped(Decoupled(data))
+    val read         = Decoupled(data)
+  })
+    val fifo = Module(new Queue@@)
+}
+
+
+
+error stacktrace:
+scala.reflect.internal.Reporting.abort(Reporting.scala:69)
+	scala.reflect.internal.Reporting.abort$(Reporting.scala:65)
+	scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+	scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.correspondingTypeArgument(TypeMaps.scala:530)
+	scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.loop$3(TypeMaps.scala:567)
+	scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.classParameterAsSeen(TypeMaps.scala:572)
+	scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:445)
+	scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:416)
+	scala.reflect.internal.Types$TypeRef.mapOver(Types.scala:2366)
+	scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:446)
+	scala.reflect.internal.Types$Type.asSeenFrom(Types.scala:693)
+	scala.reflect.internal.Types$Type.computeMemberType(Types.scala:728)
+	scala.reflect.internal.Types$Type.memberType(Types.scala:721)
+	scala.tools.nsc.interactive.Global$Members.$anonfun$add$1(Global.scala:1014)
+	scala.tools.nsc.interactive.Global$OnTypeError.onTypeError(Global.scala:1367)
+	scala.tools.nsc.interactive.Global$Members.add(Global.scala:1014)
+	scala.tools.nsc.interactive.Global.addTypeMember$1(Global.scala:1120)
+	scala.tools.nsc.interactive.Global.$anonfun$typeMembers$6(Global.scala:1154)
+	scala.tools.nsc.interactive.Global.$anonfun$typeMembers$6$adapted(Global.scala:1153)
+	scala.reflect.internal.Scopes$Scope.foreach(Scopes.scala:455)
+	scala.tools.nsc.interactive.Global.typeMembers(Global.scala:1153)
+	scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1219)
+	scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1262)
+	scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:382)
+	scala.Option.map(Option.scala:242)
+	scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:380)
+	scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:205)
+	scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:316)
+	scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:310)
+	scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:346)
+	scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:323)
+	scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+	scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:896)
+	scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:323)
+	scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:322)
+	scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+	scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:896)
+	scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:322)
+	scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:310)
+	scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:279)
+	scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+	scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$signatureHelp$1(ScalaPresentationCompiler.scala:276)

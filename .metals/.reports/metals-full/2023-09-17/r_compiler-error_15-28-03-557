@@ -1,0 +1,58 @@
+java.lang.NullPointerException
+occurred in the presentation compiler.
+
+action parameters:
+offset: 118
+uri: file://<WORKSPACE>/src/main/scala/gcd/GCD.scala
+text:
+package fifo
+
+import chisel3._
+import chisel3.util.Decoupled
+import chisel3.util.Queue
+
+
+class fifo[T <: Data] (data:R@@,depth:Int) extends Module {
+  val io = IO(new Bundle {
+    val write        = Flipped(Decoupled(data))
+    val read         = Decoupled(data)
+  })
+    val fifo = Module(new Queue(UInt(32.W),depth))
+
+    fifo.io.enq <> io.write
+    fifo.io.deq <> io.read
+}
+
+object Elaborate extends App {
+  (new chisel3.stage.ChiselStage).emitVerilog(new fifo(16))
+}
+
+
+error stacktrace:
+scala.meta.internal.pc.PcCollector.soughtTreeFilter$1(PcCollector.scala:248)
+	scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$9(PcCollector.scala:266)
+	scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$9$adapted(PcCollector.scala:266)
+	scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:348)
+	scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:288)
+	scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$19(PcCollector.scala:469)
+	scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:169)
+	scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:165)
+	scala.collection.immutable.List.foldLeft(List.scala:79)
+	scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:469)
+	scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:288)
+	scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:409)
+	scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:169)
+	scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:165)
+	scala.collection.immutable.List.foldLeft(List.scala:79)
+	scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:409)
+	scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:288)
+	scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:409)
+	scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:169)
+	scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:165)
+	scala.collection.immutable.List.foldLeft(List.scala:79)
+	scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:409)
+	scala.meta.internal.pc.PcCollector.traverseSought(PcCollector.scala:472)
+	scala.meta.internal.pc.PcCollector.resultWithSought(PcCollector.scala:266)
+	scala.meta.internal.pc.PcCollector.result(PcCollector.scala:207)
+	scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:29)
+	scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$documentHighlight$1(ScalaPresentationCompiler.scala:334)
