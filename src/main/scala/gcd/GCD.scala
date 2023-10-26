@@ -23,6 +23,7 @@ class fifo[T <: Data] (data:T,depth:Int) extends Module {
   val rd_empty = RegInit(true.B)
   val rd_en = RegInit(false.B)
   val wr_en = RegInit(false.B)
+  val width = data.getWidth
 
 /*rd_ptr is increasing*/
   withClockAndReset ( io.clk_r , io.rst_r ) {
@@ -42,11 +43,44 @@ class fifo[T <: Data] (data:T,depth:Int) extends Module {
     
   }
   io.write <> io.read
+
+  /* wr_en generate */
+  /******
+  TO DO: Correct the logic
+  ******/
+  withClock (io.clk_w ){
+    val rd_ptr1 = RegNext( wr_ptr )
+    val rd_ptr_w = RegNext( rd_ptr1 )
+    when((wr_ptr <= rd_ptr_w) && (wr_ptr(width-1) === rd_ptr_w(width-1)) ) {
+      wr_full := true.B
+    } .otherwise {
+      wr_full := false.B
+    }
+
+    when ((wr_full =/= true.B) && (io.write.valid === true.B) ){
+      wr_en := true.B
+    } .otherwise {
+      wr_en := false.B
+    }
+  }
+
+  /* rd_en generate */
+  /*****
+   * TO DO: Correct the logic
+   *****/
+  withClock (io.clk_r ){
+    val wr_ptr1 = RegNext(wr_ptr)
+    val wr_ptr_r = RegNext(wr_ptr1)
+
+    
+    when ((io.read.valid === true.B) && (rd_empty =/= true.B)){
+
+    }
+
+
+  }
+  
 }
-
-/* rd_empty generate */
-
-/* wr_full generate */
 
 class BinToGray (width: Int) extends Module {
   val io = IO(new Bundle {
@@ -72,14 +106,20 @@ class GrayToBin (width: Int) extends Module {
 
 
 
-// object Convert{
-//   def BintoGray(bin:UInt):UInt = {
-
-//   }
-//   def GraytoBin(gray:UInt):UInt = {
-
-//   }
-// }
+object Convert{
+  def Gray(bin:UInt):UInt = {
+    val width = bin.getWidth
+    val gray = new BinToGray(width)
+    gray.io.bin := bin
+    gray.io.gray
+  }
+  def Bin(gray:UInt):UInt = {
+    val width = gray.getWidth
+    val bin = new GrayToBin(width)
+    bin.io.gray := gray
+    bin.io.bin
+  }
+}
 
 object Elaborate extends App {
   (new chisel3.stage.ChiselStage).emitVerilog(new fifo(UInt(32.W),4))

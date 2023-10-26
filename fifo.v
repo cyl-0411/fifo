@@ -12,7 +12,7 @@ module fifo(
   input         io_rst_r,
   input         io_clk_r
 );
-  assign io_write_ready = io_read_ready; // @[GCD.scala 40:12]
-  assign io_read_valid = io_write_valid; // @[GCD.scala 40:12]
-  assign io_read_bits = io_write_bits; // @[GCD.scala 40:12]
+  assign io_write_ready = io_read_ready; // @[GCD.scala 44:12]
+  assign io_read_valid = io_write_valid; // @[GCD.scala 44:12]
+  assign io_read_bits = io_write_bits; // @[GCD.scala 44:12]
 endmodule
