@@ -18,7 +18,7 @@
         "classpath": [
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.8.0/sbt-1.8.0.jar",
             "/root/.sbt/boot/scala-2.12.17/lib/scala-library.jar",
-            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.8/sbt-bloop-1.5.8.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.11/sbt-bloop-1.5.11.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.8.0/main_2.12-1.8.0.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.8.0/io_2.12-1.8.0.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5.jar",
@@ -217,17 +217,17 @@
                 {
                     "organization": "ch.epfl.scala",
                     "name": "sbt-bloop",
-                    "version": "1.5.8",
+                    "version": "1.5.11",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "sbt-bloop",
-                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.8/sbt-bloop-1.5.8.jar"
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.11/sbt-bloop-1.5.11.jar"
                         },
                         {
                             "name": "sbt-bloop",
                             "classifier": "sources",
-                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.8/sbt-bloop-1.5.8-sources.jar"
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.11/sbt-bloop-1.5.11-sources.jar"
                         }
                     ]
                 },

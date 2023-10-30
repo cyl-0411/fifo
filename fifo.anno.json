@@ -6,26 +6,5 @@
   {
     "class":"firrtl.transforms.BlackBoxTargetDirAnno",
     "targetDir":"."
-  },
-  {
-    "class":"firrtl.transforms.CombinationalPath",
-    "sink":"~fifo|fifo>io_write_ready",
-    "sources":[
-      "~fifo|fifo>io_read_ready"
-    ]
-  },
-  {
-    "class":"firrtl.transforms.CombinationalPath",
-    "sink":"~fifo|fifo>io_read_bits",
-    "sources":[
-      "~fifo|fifo>io_write_bits"
-    ]
-  },
-  {
-    "class":"firrtl.transforms.CombinationalPath",
-    "sink":"~fifo|fifo>io_read_valid",
-    "sources":[
-      "~fifo|fifo>io_write_valid"
-    ]
   }
 ]

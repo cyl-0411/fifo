@@ -69,6 +69,8 @@
                 "-feature",
                 "-Xcheckinit",
                 "-P:chiselplugin:genBundleElements",
+                "-unchecked",
+                "-deprecation",
                 "-Xplugin:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-plugin_2.13.8/3.5.4/chisel3-plugin_2.13.8-3.5.4.jar"
             ],
             "jars": [
