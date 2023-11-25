@@ -1,8 +1,8 @@
 package fifo
 
 import chisel3._
-import chisel3.util.Decoupled
-import chisel3.util.Queue
+import chisel3.util._
+
 
 
 class fifo[T <: Data] (data:T,depth:Int) extends Module {
@@ -16,69 +16,30 @@ class fifo[T <: Data] (data:T,depth:Int) extends Module {
     val clk_r        = Input(Clock())
   })
 
-  val mem = Mem(depth,data)
-  val rd_ptr = RegInit(0.U)
-  val wr_ptr = RegInit(0.U)
-  val wr_full = RegInit(false.B)
-  val rd_empty = RegInit(true.B)
+  val ram = Mem(depth,data)
   
-  val rd_en = io.read.ready && io.read.valid
-  val wr_en = io.write.ready && io.write.valid 
-  val width = data.getWidth.asUInt
-  for( i <- 0 until depth ) {
-    mem.write( i.asUInt , 0.U.asTypeOf(data) )
-  }
+  val wr_en = io.write.valid && io.write.ready
+  val rd_en = io.read.valid && io.read.ready
+  val ptr_width = log2Ceil(depth) + 1
+  val rd_ptr = RegInit(0.U(ptr_width.W))
+  val wr_ptr = RegInit(0.U(ptr_width.W))
 
-/* rd_ptr */
-  withClockAndReset ( io.clk_r , io.rst_r ) {
-    when (io.rst_r === true.B) {
+  val rd_empty = rd_ptr === wr_ptr
+  val wr_full = (wr_ptr.head(1) =/= rd_ptr.head(1)) && (wr_ptr.tail(1) === rd_ptr.tail(1))
+  io.read.valid := !rd_empty
+  io.write.ready:= !wr_full
+
+  withClockAndReset( io.clk_r , io.rst_r){
+    when(io.rst_r === false.B ){
       rd_ptr := 0.U
+      io.read.bits := 0.U
     } .otherwise {
-//this part is rd_crtl logic and rd_ptr generate
-        when ((rd_en === true.B) && (rd_empty =/= true.B)){
-          io.read.bits := mem.read(rd_ptr,io.clk_r)
-          rd_ptr := rd_ptr + 1.U
-      } .otherwise {
-        rd_ptr := rd_ptr
-      }
-//get wr_ptr from wr_clk domains
-      val wr_ptr1 = RegNext(wr_ptr)
-      val wr_ptr_r = RegNext(wr_ptr1)
-      when ((rd_ptr <= wr_ptr_r) && (rd_ptr(width-1.U) === wr_ptr_r(width-1.U))){
-        rd_empty := false.B
-      } .otherwise {
-        rd_empty := true.B
-      }
-      
-      when ((io.read.valid === true.B) && (rd_empty =/= true.B)){
-        rd_en := true.B
-      } .otherwise {
-        rd_en := false.B
-      }
+      io.read.bits := Mux(rd_en, ram.read(rd_ptr,io.clk_r),0.U.asTypeOf(data))
+      rd_ptr := rd_ptr + 1.U 
     }
-  }
-/* write_ptr */
-  withClockAndReset ( io.clk_w , io.rst_w ) {
-//two D-FF to transfer signal from different clock domains
+      val wr_ptr_1 = RegNext(wr_ptr)
+      val wr_ptr_r = RegNext(wr_ptr_1)
 
-    when((wr_en === true.B) && (wr_full =/= true.B)  ){
-      mem.write( wr_ptr , io.write.bits , io.clk_w ) 
-      wr_ptr := wr_ptr + 1.U
-    } .otherwise {
-      wr_ptr := wr_ptr
-    }
-    val rd_ptr1 = RegNext( wr_ptr )
-    val rd_ptr_w = RegNext( rd_ptr1 )
-    when((wr_ptr <= rd_ptr_w) && (wr_ptr(width-1.U) === rd_ptr_w(width-1.U)) ) {
-      wr_full := true.B
-    } .otherwise {
-      wr_full := false.B
-    }
-    when ((wr_full =/= true.B) && (io.write.valid === true.B) ){
-      wr_en := true.B
-    } .otherwise {
-      wr_en := false.B
-    }
   }
 }
 
