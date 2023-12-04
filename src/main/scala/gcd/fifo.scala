@@ -84,5 +84,7 @@ object GrayToBin {
 }
 
 object Elaborate extends App {
-  (new chisel3.stage.ChiselStage).emitVerilog(new fifo(UInt(32.W),8))
+  val arg = Array("--target-dir","./gen")
+  (new chisel3.stage.ChiselStage).emitVerilog(new fifo(UInt(32.W),8) , arg)
 }
+
