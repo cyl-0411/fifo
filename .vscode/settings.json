@@ -1,5 +1,7 @@
 {
     "files.watcherExclude": {
         "**/target": true
-    }
+    },
+    "digital-ide.welcome.show": false,
+    "digital-ide.dont-show-again.propose.issue": true
 }
