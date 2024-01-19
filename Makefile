@@ -9,7 +9,7 @@ VVP = vvp
 VVP_FLAGS = -n -lxt2 
 VVP_FILE = $(TEST_DIR)/wave
 
-TIME = $(shell date +%Y%m%d)
+TIME = $(shell date)
 run:
 	$(SBT) run
 
