@@ -3,6 +3,8 @@ module fifo_tb();
 
 bit clk;
 
+bit [31:0]ram0,ram1,ram2,ram3,ram4,ram5,ram6,ram7;
+
 fifo_if tb_if(clk) ;
 
 fifo dut(
@@ -18,14 +20,26 @@ fifo dut(
 .io_read_bits   (tb_if.rd_bits   )
 );
 
+
 initial begin 
 	$dumpfile("fifo_tb.vcd");
 	$dumpvars(0,fifo_tb);
-	for(int i = 0 ; i < 8 ; i++)begin
-		$dumpvars(0,fifo_tb.dut.ram[i]);
-	end
+	// $dumpvars(0,ram1);
+	// for(int i = 0 ; i < 8 ; i++)begin
+	// 	$dumpvars(0,fifo_tb.dut.ram[i]);
+	// end
 end
 
+always #10 begin 
+	ram0 = fifo_tb.dut.ram[0];
+	ram1 = fifo_tb.dut.ram[1];
+	ram2 = fifo_tb.dut.ram[2];
+	ram3 = fifo_tb.dut.ram[3];
+	ram4 = fifo_tb.dut.ram[4];
+	ram5 = fifo_tb.dut.ram[5];
+	ram6 = fifo_tb.dut.ram[6];
+	ram7 = fifo_tb.dut.ram[7];
+end
 initial begin 
     tb_if.rd_clk  = 0 ; 
 	tb_if.wr_clk = 0 ; 

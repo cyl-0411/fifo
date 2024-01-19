@@ -32,17 +32,17 @@ module fifo(
   wire  ram_MPORT_en; // @[fifo.scala 16:16]
   reg [3:0] wr_ptr; // @[fifo.scala 18:64]
   reg [3:0] rd_ptr; // @[fifo.scala 19:64]
-  reg [3:0] wr_ptr_r_ptr_1; // @[fifo.scala 46:26]
-  reg [3:0] wr_ptr_r; // @[fifo.scala 47:26]
-  reg [3:0] rd_ptr_w_ptr_1; // @[fifo.scala 46:26]
-  reg [3:0] rd_ptr_w; // @[fifo.scala 47:26]
+  reg [3:0] wr_ptr_r_ptr_1; // @[fifo.scala 44:26]
+  reg [3:0] wr_ptr_r; // @[fifo.scala 45:26]
+  reg [3:0] rd_ptr_w_ptr_1; // @[fifo.scala 44:26]
+  reg [3:0] rd_ptr_w; // @[fifo.scala 45:26]
   reg [31:0] rd_bits; // @[fifo.scala 22:64]
   wire  rd_empty = rd_ptr == wr_ptr_r; // @[fifo.scala 24:25]
   wire  wr_full = wr_ptr[3] != rd_ptr_w[3] & wr_ptr[2:0] == rd_ptr_w[2:0]; // @[fifo.scala 25:55]
   wire  wr_en = io_write_valid & io_write_ready; // @[fifo.scala 26:30]
   wire  rd_en = io_read_valid & io_read_ready; // @[fifo.scala 27:29]
-  wire [3:0] _wr_ptr_T_1 = wr_ptr + 4'h1; // @[fifo.scala 34:24]
-  wire [3:0] _rd_ptr_T_1 = rd_ptr + 4'h1; // @[fifo.scala 39:24]
+  wire [3:0] _wr_ptr_T_1 = wr_ptr + 4'h1; // @[fifo.scala 33:24]
+  wire [3:0] _rd_ptr_T_1 = rd_ptr + 4'h1; // @[fifo.scala 38:24]
   assign ram_rd_bits_MPORT_en = io_read_valid & io_read_ready;
   assign ram_rd_bits_MPORT_addr = rd_ptr[2:0];
   assign ram_rd_bits_MPORT_data = ram[ram_rd_bits_MPORT_addr]; // @[fifo.scala 16:16]
@@ -59,24 +59,24 @@ module fifo(
     end
     if (io_wr_rst) begin // @[fifo.scala 18:64]
       wr_ptr <= 4'h0; // @[fifo.scala 18:64]
-    end else if (wr_en) begin // @[fifo.scala 32:29]
-      wr_ptr <= _wr_ptr_T_1; // @[fifo.scala 34:14]
+    end else if (wr_en) begin // @[fifo.scala 31:29]
+      wr_ptr <= _wr_ptr_T_1; // @[fifo.scala 33:14]
     end
-    rd_ptr_w_ptr_1 <= rd_ptr; // @[fifo.scala 46:26]
-    rd_ptr_w <= rd_ptr_w_ptr_1; // @[fifo.scala 48:13]
+    rd_ptr_w_ptr_1 <= rd_ptr; // @[fifo.scala 44:26]
+    rd_ptr_w <= rd_ptr_w_ptr_1; // @[fifo.scala 46:13]
   end
   always @(posedge io_rd_clk) begin
     if (io_rd_rst) begin // @[fifo.scala 19:64]
       rd_ptr <= 4'h0; // @[fifo.scala 19:64]
-    end else if (rd_en) begin // @[fifo.scala 36:29]
-      rd_ptr <= _rd_ptr_T_1; // @[fifo.scala 39:14]
+    end else if (rd_en) begin // @[fifo.scala 35:29]
+      rd_ptr <= _rd_ptr_T_1; // @[fifo.scala 38:14]
     end
-    wr_ptr_r_ptr_1 <= wr_ptr; // @[fifo.scala 46:26]
-    wr_ptr_r <= wr_ptr_r_ptr_1; // @[fifo.scala 48:13]
+    wr_ptr_r_ptr_1 <= wr_ptr; // @[fifo.scala 44:26]
+    wr_ptr_r <= wr_ptr_r_ptr_1; // @[fifo.scala 46:13]
     if (io_rd_rst) begin // @[fifo.scala 22:64]
       rd_bits <= 32'h0; // @[fifo.scala 22:64]
-    end else if (rd_en) begin // @[fifo.scala 36:29]
-      rd_bits <= ram_rd_bits_MPORT_data; // @[fifo.scala 38:15]
+    end else if (rd_en) begin // @[fifo.scala 35:29]
+      rd_bits <= ram_rd_bits_MPORT_data; // @[fifo.scala 37:15]
     end
   end
 // Register and memory initialization

@@ -8,19 +8,19 @@ circuit fifo :
     reg rd_ptr : UInt<4>, io.rd_clk with :
       reset => (io.rd_rst, UInt<4>("h0")) @[fifo.scala 19:64]
     reg wr_ptr_r_ptr_1 : UInt, io.rd_clk with :
-      reset => (UInt<1>("h0"), wr_ptr_r_ptr_1) @[fifo.scala 46:26]
-    wr_ptr_r_ptr_1 <= wr_ptr @[fifo.scala 46:26]
+      reset => (UInt<1>("h0"), wr_ptr_r_ptr_1) @[fifo.scala 44:26]
+    wr_ptr_r_ptr_1 <= wr_ptr @[fifo.scala 44:26]
     reg wr_ptr_r : UInt, io.rd_clk with :
-      reset => (UInt<1>("h0"), wr_ptr_r) @[fifo.scala 47:26]
-    wr_ptr_r <= wr_ptr_r_ptr_1 @[fifo.scala 47:26]
-    wr_ptr_r <= wr_ptr_r_ptr_1 @[fifo.scala 48:13]
+      reset => (UInt<1>("h0"), wr_ptr_r) @[fifo.scala 45:26]
+    wr_ptr_r <= wr_ptr_r_ptr_1 @[fifo.scala 45:26]
+    wr_ptr_r <= wr_ptr_r_ptr_1 @[fifo.scala 46:13]
     reg rd_ptr_w_ptr_1 : UInt, io.wr_clk with :
-      reset => (UInt<1>("h0"), rd_ptr_w_ptr_1) @[fifo.scala 46:26]
-    rd_ptr_w_ptr_1 <= rd_ptr @[fifo.scala 46:26]
+      reset => (UInt<1>("h0"), rd_ptr_w_ptr_1) @[fifo.scala 44:26]
+    rd_ptr_w_ptr_1 <= rd_ptr @[fifo.scala 44:26]
     reg rd_ptr_w : UInt, io.wr_clk with :
-      reset => (UInt<1>("h0"), rd_ptr_w) @[fifo.scala 47:26]
-    rd_ptr_w <= rd_ptr_w_ptr_1 @[fifo.scala 47:26]
-    rd_ptr_w <= rd_ptr_w_ptr_1 @[fifo.scala 48:13]
+      reset => (UInt<1>("h0"), rd_ptr_w) @[fifo.scala 45:26]
+    rd_ptr_w <= rd_ptr_w_ptr_1 @[fifo.scala 45:26]
+    rd_ptr_w <= rd_ptr_w_ptr_1 @[fifo.scala 46:13]
     reg rd_bits : UInt<32>, io.rd_clk with :
       reset => (io.rd_rst, UInt<32>("h0")) @[fifo.scala 22:64]
     node rd_empty = eq(rd_ptr, wr_ptr_r) @[fifo.scala 24:25]
@@ -38,20 +38,20 @@ circuit fifo :
     node _io_write_ready_T = eq(wr_full, UInt<1>("h0")) @[fifo.scala 29:20]
     io.write.ready <= _io_write_ready_T @[fifo.scala 29:17]
     io.read.bits <= rd_bits @[fifo.scala 30:16]
-    node _T = eq(wr_en, UInt<1>("h1")) @[fifo.scala 32:17]
-    when _T : @[fifo.scala 32:29]
+    node _T = eq(wr_en, UInt<1>("h1")) @[fifo.scala 31:17]
+    when _T : @[fifo.scala 31:29]
       node _T_1 = bits(wr_ptr, 2, 0)
       write mport MPORT = ram[_T_1], io.wr_clk
       MPORT <= io.write.bits
-      node _wr_ptr_T = add(wr_ptr, UInt<1>("h1")) @[fifo.scala 34:24]
-      node _wr_ptr_T_1 = tail(_wr_ptr_T, 1) @[fifo.scala 34:24]
-      wr_ptr <= _wr_ptr_T_1 @[fifo.scala 34:14]
-    node _T_2 = eq(rd_en, UInt<1>("h1")) @[fifo.scala 36:17]
-    when _T_2 : @[fifo.scala 36:29]
-      node _rd_bits_T = bits(rd_ptr, 2, 0) @[fifo.scala 38:26]
-      read mport rd_bits_MPORT = ram[_rd_bits_T], io.rd_clk @[fifo.scala 38:26]
-      rd_bits <= rd_bits_MPORT @[fifo.scala 38:15]
-      node _rd_ptr_T = add(rd_ptr, UInt<1>("h1")) @[fifo.scala 39:24]
-      node _rd_ptr_T_1 = tail(_rd_ptr_T, 1) @[fifo.scala 39:24]
-      rd_ptr <= _rd_ptr_T_1 @[fifo.scala 39:14]
+      node _wr_ptr_T = add(wr_ptr, UInt<1>("h1")) @[fifo.scala 33:24]
+      node _wr_ptr_T_1 = tail(_wr_ptr_T, 1) @[fifo.scala 33:24]
+      wr_ptr <= _wr_ptr_T_1 @[fifo.scala 33:14]
+    node _T_2 = eq(rd_en, UInt<1>("h1")) @[fifo.scala 35:17]
+    when _T_2 : @[fifo.scala 35:29]
+      node _rd_bits_T = bits(rd_ptr, 2, 0) @[fifo.scala 37:26]
+      read mport rd_bits_MPORT = ram[_rd_bits_T], io.rd_clk @[fifo.scala 37:26]
+      rd_bits <= rd_bits_MPORT @[fifo.scala 37:15]
+      node _rd_ptr_T = add(rd_ptr, UInt<1>("h1")) @[fifo.scala 38:24]
+      node _rd_ptr_T_1 = tail(_rd_ptr_T, 1) @[fifo.scala 38:24]
+      rd_ptr <= _rd_ptr_T_1 @[fifo.scala 38:14]
 
