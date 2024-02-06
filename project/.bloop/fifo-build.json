@@ -202,7 +202,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home",
+                "home": "/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre",
                 "options": [
                     "-Duser.dir=/Users/chenyulong/Desktop/fifo/project"
                 ]
@@ -211,7 +211,7 @@
                 
             ],
             "runtimeConfig": {
-                "home": "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home",
+                "home": "/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre",
                 "options": [
                     "-Duser.dir=/Users/chenyulong/Desktop/fifo/project"
                 ]
@@ -1361,7 +1361,11 @@
                         {
                             "name": "test-interface",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "d44b23e9e3419ad0e00b91bba764a48d43075000"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
                         }
                     ]
                 },

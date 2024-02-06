@@ -20,7 +20,6 @@ fifo dut(
 .io_read_bits   (tb_if.rd_bits   )
 );
 
-
 initial begin 
 	$dumpfile("fifo_tb.vcd");
 	$dumpvars(0,fifo_tb);
@@ -57,10 +56,11 @@ always #10 tb_if.wr_clk = ~tb_if.wr_clk ;
 
 initial begin
 	@(posedge tb_if.wr_clk)
-	wrOnly();
-	rdOnly();
-	wrOnly();
-	rdOnly();
+	// wrOnly();
+	// rdOnly();
+	// wrOnly();
+	// rdOnly();
+	rdAndwr();
 	$finish;
 end
 
@@ -73,12 +73,24 @@ end
 endtask
 
 task wrOnly ;
-for (int i = 0 ; i < 32 ; i++) begin
+	for (int i = 0 ; i < 32 ; i++) begin
+		tb_if.wr_valid = $random() % 2 ;
+		tb_if.wr_bits = $random() ; 
+		@(posedge tb_if.wr_clk);
+    	#7 ;
+	end
+endtask
+
+task rdAndwr ;
+for (int i = 0 ; i< 128 ; i++ ) begin
 	tb_if.wr_valid = $random() % 2 ;
 	tb_if.wr_bits = $random() ; 
 	@(posedge tb_if.wr_clk);
     #7 ;
+	tb_if.rd_ready = $random() ;
+	@(posedge tb_if.rd_clk);
+    #2 ;
 end
-endtask
+endtask 
 
 endmodule : fifo_tb

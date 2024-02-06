@@ -48,15 +48,18 @@ object ptr_converter {
     }
   }
 }
-object BinToGray {
-  def apply(bin : UInt , width : Int) : UInt = {
-    val gray = Wire(UInt(32.W))
-    gray := bin ^ (bin >> 1.U)
-    gray
+
+object data_converter {
+  def BinToGray(gray : UInt , width : Int):UInt = {
+    val binary = Wire(Vec(width,UInt(1.W)))
+    binary(width-1) := gray(width-1)
+    for (i <- 2 until (width+1)) {
+      binary(width-i) := gray(width-i) ^ binary(width-i+1) 
+    }
+    binary.asUInt
   }
-}
-object GrayToBin {
-  def apply(gray : UInt , width : Int):UInt = {
+
+  def GrayToBin (gray : UInt , width : Int):UInt = {
     val binary = Wire(Vec(width,UInt(1.W)))
     binary(width-1) := gray(width-1)
     for (i <- 2 until (width+1)) {
@@ -65,6 +68,26 @@ object GrayToBin {
     binary.asUInt
   }
 }
+
+//TODO: delet this after test. 
+// object BinToGray {
+//   def apply(bin : UInt , width : Int) : UInt = {
+//     val gray = Wire(UInt(32.W))
+//     gray := bin ^ (bin >> 1.U)
+//     gray
+//   }
+// }
+// object GrayToBin {
+//   def apply(gray : UInt , width : Int):UInt = {
+//     val binary = Wire(Vec(width,UInt(1.W)))
+//     binary(width-1) := gray(width-1)
+//     for (i <- 2 until (width+1)) {
+//       binary(width-i) := gray(width-i) ^ binary(width-i+1) 
+//     }
+//     binary.asUInt
+//   }
+  
+// }
 object Elaborate extends App {
   val arg = Array("--target-dir","./gen")
   (new chisel3.stage.ChiselStage).emitVerilog(new fifo(UInt(32.W),8) , arg)

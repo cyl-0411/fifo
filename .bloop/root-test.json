@@ -16,42 +16,42 @@
         ],
         "classpath": [
             "/Users/chenyulong/Desktop/fifo/.bloop/root/scala-2.13/classes",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.13/3.5.4/chisel3_2.13-3.5.4.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chiseltest_2.13/0.5.4/chiseltest_2.13-0.5.4.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-macros_2.13/3.5.4/chisel3-macros_2.13-3.5.4.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-core_2.13/3.5.4/chisel3-core_2.13-3.5.4.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.8.0/os-lib_2.13-0.8.0.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/treadle_2.13/1.5.4/treadle_2.13-1.5.4.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.1.4/scalatest_2.13-3.1.4.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.9/utest_2.13-0.7.9.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl_2.13/1.5.4/firrtl_2.13-1.5.4.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.7.0/geny_2.13-0.7.0.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.18.0/protobuf-java-3.18.0.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.13/3.6.12/json4s-native_2.13-3.6.12.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/data-class_2.13/0.2.5/data-class_2.13-0.2.5.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/3.6.12/json4s-core_2.13-3.6.12.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/3.6.12/json4s-ast_2.13-3.6.12.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/3.6.12/json4s-scalap_2.13-3.6.12.jar",
-            "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chisel3_2.13/3.5.4/chisel3_2.13-3.5.4.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chiseltest_2.13/0.5.4/chiseltest_2.13-0.5.4.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chisel3-macros_2.13/3.5.4/chisel3-macros_2.13-3.5.4.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chisel3-core_2.13/3.5.4/chisel3-core_2.13-3.5.4.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/lihaoyi/os-lib_2.13/0.8.0/os-lib_2.13-0.8.0.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/treadle_2.13/1.5.4/treadle_2.13-1.5.4.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scalatest/scalatest_2.13/3.1.4/scalatest_2.13-3.1.4.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/lihaoyi/utest_2.13/0.7.9/utest_2.13-0.7.9.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/firrtl_2.13/1.5.4/firrtl_2.13-1.5.4.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/lihaoyi/geny_2.13/0.7.0/geny_2.13-0.7.0.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/google/protobuf/protobuf-java/3.18.0/protobuf-java-3.18.0.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-native_2.13/3.6.12/json4s-native_2.13-3.6.12.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/apache/commons/commons-text/1.9/commons-text-1.9.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/io/github/alexarchambault/data-class_2.13/0.2.5/data-class_2.13-0.2.5.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-core_2.13/3.6.12/json4s-core_2.13-3.6.12.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-ast_2.13/3.6.12/json4s-ast_2.13-3.6.12.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-scalap_2.13/3.6.12/json4s-scalap_2.13-3.6.12.jar",
+            "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
         ],
         "out": "/Users/chenyulong/Desktop/fifo/.bloop/root",
         "classesDir": "/Users/chenyulong/Desktop/fifo/.bloop/root/scala-2.13/test-classes",
@@ -71,14 +71,14 @@
                 "-P:chiselplugin:genBundleElements",
                 "-unchecked",
                 "-deprecation",
-                "-Xplugin:/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-plugin_2.13.8/3.5.4/chisel3-plugin_2.13.8-3.5.4.jar"
+                "-Xplugin:/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chisel3-plugin_2.13.8/3.5.4/chisel3-plugin_2.13.8-3.5.4.jar"
             ],
             "jars": [
-                "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
-                "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar",
-                "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar",
-                "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
-                "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+                "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
+                "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar",
+                "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar",
+                "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/jline/jline/3.21.0/jline-3.21.0.jar",
+                "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -146,7 +146,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Users/chenyulong/.jabba/jdk/openjdk@1.17.0/Contents/Home",
+                "home": "/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre",
                 "options": [
                     "-Duser.dir=/Users/chenyulong/Desktop/fifo"
                 ]
@@ -165,12 +165,20 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "5a865f03a794b27e6491740c4c419a19e4511a3d"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "e5d3cfc86398c15c9537b32e62890e4f46674668"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
                         }
                     ]
                 },
@@ -182,12 +190,20 @@
                     "artifacts": [
                         {
                             "name": "chisel3_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.13/3.5.4/chisel3_2.13-3.5.4.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "ee13de5cefe66e4fe4e42c416fe307e2b629fdf4"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chisel3_2.13/3.5.4/chisel3_2.13-3.5.4.jar"
                         },
                         {
                             "name": "chisel3_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.13/3.5.4/chisel3_2.13-3.5.4-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "0ffd1e8bf051577b29c0f0c04f4a76258833e310"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chisel3_2.13/3.5.4/chisel3_2.13-3.5.4-sources.jar"
                         }
                     ]
                 },
@@ -199,12 +215,20 @@
                     "artifacts": [
                         {
                             "name": "chisel3-macros_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-macros_2.13/3.5.4/chisel3-macros_2.13-3.5.4.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "1e85402e79f6c08ad17b0b89106abc6d572b63d5"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chisel3-macros_2.13/3.5.4/chisel3-macros_2.13-3.5.4.jar"
                         },
                         {
                             "name": "chisel3-macros_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-macros_2.13/3.5.4/chisel3-macros_2.13-3.5.4-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "4047451650af67d10371ff4ae61294d5bc97a640"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chisel3-macros_2.13/3.5.4/chisel3-macros_2.13-3.5.4-sources.jar"
                         }
                     ]
                 },
@@ -216,12 +240,20 @@
                     "artifacts": [
                         {
                             "name": "chisel3-core_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-core_2.13/3.5.4/chisel3-core_2.13-3.5.4.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "a690c3650e7667129850eb40ab92ee2fe884576b"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chisel3-core_2.13/3.5.4/chisel3-core_2.13-3.5.4.jar"
                         },
                         {
                             "name": "chisel3-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-core_2.13/3.5.4/chisel3-core_2.13-3.5.4-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "88f8ca1c592d75ee48bb2449b8623d90ffad5fb8"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chisel3-core_2.13/3.5.4/chisel3-core_2.13-3.5.4-sources.jar"
                         }
                     ]
                 },
@@ -233,12 +265,20 @@
                     "artifacts": [
                         {
                             "name": "scala-reflect",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "994b004d041b18724ec298a135c37e7817d369ec"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar"
                         },
                         {
                             "name": "scala-reflect",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "f825a4b6db43497826399483629953de1e997e75"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8-sources.jar"
                         }
                     ]
                 },
@@ -250,12 +290,20 @@
                     "artifacts": [
                         {
                             "name": "os-lib_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.8.0/os-lib_2.13-0.8.0.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "db5a703b8fdcee0ef5e83919893384e520f41da0"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/lihaoyi/os-lib_2.13/0.8.0/os-lib_2.13-0.8.0.jar"
                         },
                         {
                             "name": "os-lib_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.8.0/os-lib_2.13-0.8.0-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "3af37014b41221d57c5eb2ab4f7834f8a1525fa3"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/lihaoyi/os-lib_2.13/0.8.0/os-lib_2.13-0.8.0-sources.jar"
                         }
                     ]
                 },
@@ -267,12 +315,20 @@
                     "artifacts": [
                         {
                             "name": "firrtl_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl_2.13/1.5.4/firrtl_2.13-1.5.4.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "c3c4a705b622ab83a83648aae60b30a632fa2b06"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/firrtl_2.13/1.5.4/firrtl_2.13-1.5.4.jar"
                         },
                         {
                             "name": "firrtl_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl_2.13/1.5.4/firrtl_2.13-1.5.4-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "f18d19883e72a236114f73dad916ace5aaa20809"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/firrtl_2.13/1.5.4/firrtl_2.13-1.5.4-sources.jar"
                         }
                     ]
                 },
@@ -284,12 +340,20 @@
                     "artifacts": [
                         {
                             "name": "geny_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.7.0/geny_2.13-0.7.0.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "9ea4623ce6bae6c05dd11a08fb042aa413a1509d"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/lihaoyi/geny_2.13/0.7.0/geny_2.13-0.7.0.jar"
                         },
                         {
                             "name": "geny_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.7.0/geny_2.13-0.7.0-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "339a7abfc91ebaf8b838498dec20bc4811611018"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/lihaoyi/geny_2.13/0.7.0/geny_2.13-0.7.0-sources.jar"
                         }
                     ]
                 },
@@ -301,12 +365,20 @@
                     "artifacts": [
                         {
                             "name": "antlr4-runtime",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "81befc16ebedb8b8aea3e4c0835dd5ca7e8523a8"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar"
                         },
                         {
                             "name": "antlr4-runtime",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "69de5778d09b719b362230212fc9dbdfcbf3ebd1"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3-sources.jar"
                         }
                     ]
                 },
@@ -318,12 +390,20 @@
                     "artifacts": [
                         {
                             "name": "protobuf-java",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.18.0/protobuf-java-3.18.0.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "5637701f704eea96651904b2db8fce759c17d853"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/google/protobuf/protobuf-java/3.18.0/protobuf-java-3.18.0.jar"
                         },
                         {
                             "name": "protobuf-java",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.18.0/protobuf-java-3.18.0-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "d5856bf4aff10668b796fcda845609b4bc938e9e"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/google/protobuf/protobuf-java/3.18.0/protobuf-java-3.18.0-sources.jar"
                         }
                     ]
                 },
@@ -335,12 +415,20 @@
                     "artifacts": [
                         {
                             "name": "scopt_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "80ef080675b45d6fcfea60cb35ba9200fffd1751"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1.jar"
                         },
                         {
                             "name": "scopt_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "c2abc5006629b83236eb6ebcfee1e186f5ae1740"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/github/scopt/scopt_2.13/3.7.1/scopt_2.13-3.7.1-sources.jar"
                         }
                     ]
                 },
@@ -352,12 +440,20 @@
                     "artifacts": [
                         {
                             "name": "moultingyaml_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "0b8c1c4dbe983a73696662d014fe8ff47362126e"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2.jar"
                         },
                         {
                             "name": "moultingyaml_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "139359f22e5ef9573efb9519e292d9007a55a760"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/net/jcazevedo/moultingyaml_2.13/0.4.2/moultingyaml_2.13-0.4.2-sources.jar"
                         }
                     ]
                 },
@@ -369,12 +465,20 @@
                     "artifacts": [
                         {
                             "name": "json4s-native_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.13/3.6.12/json4s-native_2.13-3.6.12.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "499db8eb2de73e7fbcde5662cffc708de7703b24"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-native_2.13/3.6.12/json4s-native_2.13-3.6.12.jar"
                         },
                         {
                             "name": "json4s-native_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.13/3.6.12/json4s-native_2.13-3.6.12-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "35e3eaaded558a9fd4562d452a06ead964b12480"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-native_2.13/3.6.12/json4s-native_2.13-3.6.12-sources.jar"
                         }
                     ]
                 },
@@ -386,12 +490,20 @@
                     "artifacts": [
                         {
                             "name": "commons-text",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "ba6ac8c2807490944a0a27f6f8e68fb5ed2e80e2"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/apache/commons/commons-text/1.9/commons-text-1.9.jar"
                         },
                         {
                             "name": "commons-text",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "ae5c56310246339ac93e96c576243689173142d4"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/apache/commons/commons-text/1.9/commons-text-1.9-sources.jar"
                         }
                     ]
                 },
@@ -403,12 +515,20 @@
                     "artifacts": [
                         {
                             "name": "data-class_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/data-class_2.13/0.2.5/data-class_2.13-0.2.5.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "09e649b0fb295d73bba7e3800429c49be697c862"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/io/github/alexarchambault/data-class_2.13/0.2.5/data-class_2.13-0.2.5.jar"
                         },
                         {
                             "name": "data-class_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/data-class_2.13/0.2.5/data-class_2.13-0.2.5-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "0a1f53daf3db529a2884ed5964c71b249636a5a9"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/io/github/alexarchambault/data-class_2.13/0.2.5/data-class_2.13-0.2.5-sources.jar"
                         }
                     ]
                 },
@@ -420,12 +540,20 @@
                     "artifacts": [
                         {
                             "name": "scala-parallel-collections_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "9846d1ed01f24e90d7f9495987033b8274835431"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.jar"
                         },
                         {
                             "name": "scala-parallel-collections_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "9a5e0141b0ef67295f9a98795dcd8b2dc1e36447"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4-sources.jar"
                         }
                     ]
                 },
@@ -437,12 +565,20 @@
                     "artifacts": [
                         {
                             "name": "nscala-time_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "b2e5e02d63b9093efd8ec86c65d6a48fb742de65"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0.jar"
                         },
                         {
                             "name": "nscala-time_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "7a17a04009a1fc785bdcaf02dffb7c2b991dc0b8"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/github/nscala-time/nscala-time_2.13/2.22.0/nscala-time_2.13-2.22.0-sources.jar"
                         }
                     ]
                 },
@@ -454,12 +590,20 @@
                     "artifacts": [
                         {
                             "name": "snakeyaml",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "a78a8747147d2c5807683e76ec2b633e95c14fe9"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar"
                         },
                         {
                             "name": "snakeyaml",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "1f369166f21abc8c07e618c2b9c0897f405d0999"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/yaml/snakeyaml/1.26/snakeyaml-1.26-sources.jar"
                         }
                     ]
                 },
@@ -471,12 +615,20 @@
                     "artifacts": [
                         {
                             "name": "json4s-core_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/3.6.12/json4s-core_2.13-3.6.12.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "1bad8c81dc12b502c4bff1c28f951ae22eb43954"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-core_2.13/3.6.12/json4s-core_2.13-3.6.12.jar"
                         },
                         {
                             "name": "json4s-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/3.6.12/json4s-core_2.13-3.6.12-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "e134d7d8cc9581c1942585e91bf2bd15c0c90004"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-core_2.13/3.6.12/json4s-core_2.13-3.6.12-sources.jar"
                         }
                     ]
                 },
@@ -488,12 +640,20 @@
                     "artifacts": [
                         {
                             "name": "commons-lang3",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "68e9a6adf7cf8eb7e9d31bbc554c7c75eeaac568"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar"
                         },
                         {
                             "name": "commons-lang3",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "24014867e470db3942db53b17a4902f4215d5ea8"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-sources.jar"
                         }
                     ]
                 },
@@ -505,12 +665,20 @@
                     "artifacts": [
                         {
                             "name": "joda-time",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "9ac3dbf89dbf2ee385185dd0cd3064fe789efee0"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar"
                         },
                         {
                             "name": "joda-time",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "31b91b963228648fd1899fc7bbc18bdfa7ce45d1"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar"
                         }
                     ]
                 },
@@ -522,12 +690,20 @@
                     "artifacts": [
                         {
                             "name": "joda-convert",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "dbdb0135bade3d3daf11f203c45a48a2a8f41dd5"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar"
                         },
                         {
                             "name": "joda-convert",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "a1195fa681e660d9e38cf04912c5ce6a76dc96c2"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/joda/joda-convert/2.2.0/joda-convert-2.2.0-sources.jar"
                         }
                     ]
                 },
@@ -539,12 +715,20 @@
                     "artifacts": [
                         {
                             "name": "json4s-ast_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/3.6.12/json4s-ast_2.13-3.6.12.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "577f0824a59448f889e1eef7a04681827927d7d9"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-ast_2.13/3.6.12/json4s-ast_2.13-3.6.12.jar"
                         },
                         {
                             "name": "json4s-ast_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/3.6.12/json4s-ast_2.13-3.6.12-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "b6e1cf75fb5950297be28a75e0b0905e893e5f14"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-ast_2.13/3.6.12/json4s-ast_2.13-3.6.12-sources.jar"
                         }
                     ]
                 },
@@ -556,12 +740,20 @@
                     "artifacts": [
                         {
                             "name": "json4s-scalap_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/3.6.12/json4s-scalap_2.13-3.6.12.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "d8c3125f888219b479be8040b5f47e6320e03e4e"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-scalap_2.13/3.6.12/json4s-scalap_2.13-3.6.12.jar"
                         },
                         {
                             "name": "json4s-scalap_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/3.6.12/json4s-scalap_2.13-3.6.12-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "356bb19854890cd8550b00f9c1e8bc566c748a27"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/json4s/json4s-scalap_2.13/3.6.12/json4s-scalap_2.13-3.6.12-sources.jar"
                         }
                     ]
                 },
@@ -573,12 +765,20 @@
                     "artifacts": [
                         {
                             "name": "paranamer",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "619eba74c19ccf1da8ebec97a2d7f8ba05773dd6"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
                         },
                         {
                             "name": "paranamer",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "8f3421a8203053a6ab4b74f76a0550d21eee8cfe"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
                         }
                     ]
                 },
@@ -590,12 +790,20 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "5a865f03a794b27e6491740c4c419a19e4511a3d"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "e5d3cfc86398c15c9537b32e62890e4f46674668"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
                         }
                     ]
                 },
@@ -607,12 +815,20 @@
                     "artifacts": [
                         {
                             "name": "chiseltest_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chiseltest_2.13/0.5.4/chiseltest_2.13-0.5.4.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "5b2ebccaf04e2cca0b83d2d0e9e0148d74351d4a"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chiseltest_2.13/0.5.4/chiseltest_2.13-0.5.4.jar"
                         },
                         {
                             "name": "chiseltest_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chiseltest_2.13/0.5.4/chiseltest_2.13-0.5.4-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "07ef5e96430e142990dbf5f763262539622f229a"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/chiseltest_2.13/0.5.4/chiseltest_2.13-0.5.4-sources.jar"
                         }
                     ]
                 },
@@ -624,12 +840,20 @@
                     "artifacts": [
                         {
                             "name": "treadle_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/treadle_2.13/1.5.4/treadle_2.13-1.5.4.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "908af73bb9021bf3ae42239ba9307c2199d0f131"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/treadle_2.13/1.5.4/treadle_2.13-1.5.4.jar"
                         },
                         {
                             "name": "treadle_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/treadle_2.13/1.5.4/treadle_2.13-1.5.4-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "83694482aee0bc49a8c6368d1ea26865ee990179"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/edu/berkeley/cs/treadle_2.13/1.5.4/treadle_2.13-1.5.4-sources.jar"
                         }
                     ]
                 },
@@ -641,12 +865,20 @@
                     "artifacts": [
                         {
                             "name": "scalatest_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.1.4/scalatest_2.13-3.1.4.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "1118d47be0529f97cec66203210b6f30df1a1e30"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scalatest/scalatest_2.13/3.1.4/scalatest_2.13-3.1.4.jar"
                         },
                         {
                             "name": "scalatest_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.1.4/scalatest_2.13-3.1.4-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "8ef37d648802b97e59f9d4996f8ca481de330a56"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scalatest/scalatest_2.13/3.1.4/scalatest_2.13-3.1.4-sources.jar"
                         }
                     ]
                 },
@@ -658,12 +890,20 @@
                     "artifacts": [
                         {
                             "name": "utest_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.9/utest_2.13-0.7.9.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "97c1d59d241e12cc929e3cf7d6a5f4514b1e3018"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/lihaoyi/utest_2.13/0.7.9/utest_2.13-0.7.9.jar"
                         },
                         {
                             "name": "utest_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.9/utest_2.13-0.7.9-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "b0c31a5b3a5dc180dc9937c1de6d3a2a7dae5137"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/com/lihaoyi/utest_2.13/0.7.9/utest_2.13-0.7.9-sources.jar"
                         }
                     ]
                 },
@@ -675,12 +915,20 @@
                     "artifacts": [
                         {
                             "name": "jna",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "7cf4c87dd802db50721db66947aa237d7ad09418"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar"
                         },
                         {
                             "name": "jna",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "0ff0287cd964354b358d49ad41e5bae9c7d1b4ae"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/net/java/dev/jna/jna/5.10.0/jna-5.10.0-sources.jar"
                         }
                     ]
                 },
@@ -692,12 +940,20 @@
                     "artifacts": [
                         {
                             "name": "scala-jline",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "25c89a078e70c41876c5031f452a611a99950080"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1.jar"
                         },
                         {
                             "name": "scala-jline",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "b914b82b32765c7feec9d579f6d54af9350d7f6c"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1-sources.jar"
                         }
                     ]
                 },
@@ -709,12 +965,20 @@
                     "artifacts": [
                         {
                             "name": "scalactic_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "a9c179eb6179b21ab0303e6a0e275a86eef2357a"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4.jar"
                         },
                         {
                             "name": "scalactic_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "e69592045f4cc3f77d0c30fa413038744a6925aa"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scalactic/scalactic_2.13/3.1.4/scalactic_2.13-3.1.4-sources.jar"
                         }
                     ]
                 },
@@ -726,12 +990,20 @@
                     "artifacts": [
                         {
                             "name": "scala-xml_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "f6abd60d28c189f05183b26c5363713d1d126b83"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar"
                         },
                         {
                             "name": "scala-xml_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "7a7c99769f3823091a150378f37a1d7b7ed73055"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"
                         }
                     ]
                 },
@@ -743,12 +1015,20 @@
                     "artifacts": [
                         {
                             "name": "test-interface",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "0a3f14d010c4cb32071f863d97291df31603b521"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
                         },
                         {
                             "name": "test-interface",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "d44b23e9e3419ad0e00b91bba764a48d43075000"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
                         }
                     ]
                 },
@@ -760,12 +1040,20 @@
                     "artifacts": [
                         {
                             "name": "portable-scala-reflect_2.13",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "80bc8026770f30c5a1ad758e0698dd337a7b3533"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar"
                         },
                         {
                             "name": "portable-scala-reflect_2.13",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "951e71a652040ca41e91c11709e65ea2fdb50a7f"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1-sources.jar"
                         }
                     ]
                 },
@@ -777,12 +1065,20 @@
                     "artifacts": [
                         {
                             "name": "jansi",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "655c643309c2f45a56a747fda70e3fadf57e9f11"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar"
                         },
                         {
                             "name": "jansi",
                             "classifier": "sources",
-                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11-sources.jar"
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "2f0e4b53b6b0eec426dad7118bf54b3deb58000b"
+                            },
+                            "path": "/Users/chenyulong/Library/Caches/Coursier/v1/https/maven.aliyun.com/repository/central/org/fusesource/jansi/jansi/1.11/jansi-1.11-sources.jar"
                         }
                     ]
                 }
